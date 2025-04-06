@@ -25,9 +25,9 @@ btn5.addEventListener("click",function()
 
 btn7.addEventListener('click',function()
 {
-    if(name.value=="" || email.value=="" || message.value=="")
+    if(name.value=="" && email.value=="" && message.value=="")
     {
-        alert("Please Enter Name and Email id");
+        alert("Please Enter Name and Email id and message");
     }
     else
     {
