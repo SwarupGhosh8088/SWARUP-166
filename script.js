@@ -5,7 +5,7 @@ let name=document.getElementById('name');
 let ten=document.getElementById('ten');
 let tweleve=document.getElementById('twelve');
 let bca=document.getElementById('bca');
-
+let message=document.getElementById('message');
 
 
 
@@ -25,7 +25,7 @@ btn5.addEventListener("click",function()
 
 btn7.addEventListener('click',function()
 {
-    if(name.value=="" || email.value=="")
+    if(name.value=="" || email.value=="" || message.value=="")
     {
         alert("Please Enter Name and Email id");
     }
