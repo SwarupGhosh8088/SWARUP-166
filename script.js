@@ -36,6 +36,7 @@ btn7.addEventListener('click',function()
 
     name.value="";
     email.value="";
+    message.value="";
 });
 
 
